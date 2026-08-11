@@ -2,7 +2,7 @@
 
 Kendi eğittiğim sinir ağı ile klasik satranç değerlendirmesini birleştiren hibrit bir satranç motoru.
 
-BetaOne, tahtayı CNN ile puanlar; minimax aramasıyla en iyi hamleyi seçer. Üzerinde oynayabileceğin arayüzler de projede hazır.
+BetaOne modeli **Google Colab** üzerinde eğitildi (yaklaşık 1000 oyunluk veri ile), ardından ağırlıklar (`betaone.pt`) bu repoya aktarıldı. Motor tahtayı CNN ile puanlar; minimax aramasıyla en iyi hamleyi seçer. Üzerinde oynayabileceğin arayüzler de projede hazır.
 
 ## Özellikler
 
@@ -88,7 +88,10 @@ Sen beyazlarla oynarsın; siyah hamleleri motor üretir.
 
 ## Model notu
 
-Motor varsayılan olarak kökteki `betaone.pt` dosyasını yükler. Dosya yoksa motor yine çalışır ama değerlendirme rastgele/zayıf olur.
+- Eğitim ortamı: **Google Colab**
+- Ağırlık dosyası: kökteki `betaone.pt` (Colab’den indirilip projeye konur)
+- Motor bu dosyayı yükler; yoksa çalışır ama değerlendirme rastgele/zayıf olur
+- `betaone_alphago.pt` ve `betaone_eski.pt` alternatif / yedek ağırlıklardır
 
 ## Geliştirme fikirleri
 
