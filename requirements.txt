@@ -1,0 +1,7 @@
+chess
+torch
+numpy
+fastapi
+uvicorn
+flask
+pydantic

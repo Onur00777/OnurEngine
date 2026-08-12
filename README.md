@@ -37,7 +37,7 @@ OnurEngine/
 Örnek kurulum:
 
 ```bash
-pip install chess torch numpy fastapi uvicorn flask pydantic
+pip install -r requirements.txt
 ```
 
 **Next.js arayüz**
