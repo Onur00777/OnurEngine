@@ -1,6 +1,6 @@
 # OnurEngine (BetaOne)
 
-Kendi eğittiğim sinir ağı ile klasik satranç değerlendirmesini birleştiren hibrit bir satranç motoru.
+Kendi eğittiğim derin öğrenme modeli ile klasik satranç değerlendirmesini birleştiren hibrit bir satranç motoru. Matematiksel hamle hesabı ile yapay zeka ağı birlikte kullanılmıştır.
 
 BetaOne modeli **Google Colab** üzerinde eğitildi (yaklaşık 1000 oyunluk veri ile), ardından ağırlıklar (`betaone.pt`) bu repoya aktarıldı. Motor tahtayı CNN ile puanlar; minimax aramasıyla en iyi hamleyi seçer. Üzerinde oynayabileceğin arayüzler de projede hazır.
 
