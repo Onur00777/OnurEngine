@@ -1,6 +1,6 @@
 # OnurEngine (BetaOne)
 
-A hybrid chess engine that combines classical chess evaluation with a deep learning model I trained myself. It utilizes a combination of mathematical move calculation and an artificial intelligence network.
+A chess engine that combines classical chess evaluation with a deep learning model I trained myself. It utilizes a combination of mathematical move calculation and an artificial intelligence network.
 
 The BetaOne model was trained on **Google Colab** (using data from approximately 1,000 games), and the weights (`betaone.pt`) were subsequently transferred to this repository. The engine evaluates the board using a CNN and selects the best move via minimax search. Interfaces for playing the game are also included in the project. ## Features
 
