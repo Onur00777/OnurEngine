@@ -32,7 +32,7 @@ OnurEngine/
 - Python 3.10+
 - `chess`, `torch`, `numpy`, `fastapi`, `uvicorn`, `flask`, `pydantic`
 
-Example installation:
+Example installation process:
 
 ```bash
 pip install -r requirements.txt
@@ -65,7 +65,7 @@ curl -X POST http://127.0.0.1:8000/get_move ^
 -d "{\"fen\": \"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"}"
 ```
 
-### 2) Flask interface
+### 2) Interface
 
 ```bash
 python app.py
@@ -73,7 +73,7 @@ python app.py
 
 ### 3) Next.js interface
 
-Ensure the API is running on port `8000`, then:
+Ensure that the API is running on port `8000`, afterwards:
 
 ```bash
 cd satranc-arayuzu
